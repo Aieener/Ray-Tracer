@@ -1,5 +1,82 @@
-readme.txt
 Final Project: Ray tracer
+
+Milestone 1
+
+Group Member: Siqi Sun ; Yuding Ai ; Ziyin Qu
+Pennkey     : siqisun  ; yudingai  ; ziyinq
+
+OS: Yuding Ai:  Ubuntu 16.04
+    Siqi Sun :  Mac OS
+    Ziyin Qu :  Windows 10
+
+Date: 2017.04.06 - 2017.04.11
+
+To run the program:
+This is a Qt project so just make sure to attach the file <all_shapes.json> and <triangle.obj>
+from "Basecode_final/hw1/" into the Qt's working directory.  Then just press the run button.
+
+
+Contributions:
+
+Part A: Siqi Sun
+
+1. Construct a json loader function, which reads in the scene file and output the camera object, a vector of geometry objects and a vector of material objects.
+2. Design and implement the superclass "Geometry" and its derived classes for each specific geometry, i.e. "Cube", "Sphere", "Square" and "Triangle".
+3. Create a function which reads in the .obj file and transfer it to a vector of triangles.
+4. Create a function which converts the vector of geometries read in into a vector of "Geometry" objects.
+
+Part B: Yuding Ai
+
+1. Create Camera class and implement several method for camera, including Raycast
+2. Create the Ray and Intersection class where the Intersectoin class to be the returned result of intersect() function
+3. Write the raytracer function in raytrace.cpp as the simplest raytracer.
+4. Debug and test as to put our works together.
+
+Part C: Ziyin Qu
+
+Create intersection for Cube, Sphere, Square plane, Triangle and get intersection parameter t
+
+//---------------------------------------------------------------------------------------
+Milestone 2
+
+Group Member: Siqi Sun ; Yuding Ai ; Ziyin Qu
+Pennkey     : siqisun  ; yudingai  ; ziyinq
+
+OS: Yuding Ai:  Ubuntu 16.04 (running OS)
+    Siqi Sun :  Mac OS
+    Ziyin Qu :  Windows 10
+
+Date: 2017.04.11 - 2017.04.18
+
+To run the program:
+This is a Qt project so just make sure to attach the file <cornell_box.json> and the corresponding 
+textures and normalmap jpg files (jpg in lower caes) from "Basecode_final/hw2/" into the Qt's working directory.  
+Then just press the run button. (With mac, one might need to modify the file address)
+
+
+
+Contributions:
+
+Part A: Siqi Sun
+
+1. For each hit point, shoot a shadow ray to the light source and check whether this hit point is in shadow or not.
+2. For each hit point, perform the Lambertian shading.
+
+
+Part B: Yuding Ai
+
+1. Texture mapping and Normal Mapping
+2. debug together with my teamates.
+
+Part C: Ziyin Qu
+
+1. Write relection function
+2. Implement recursive process for reflection
+
+
+P.S. See sample result of cornell_box.json "sample_result.png".
+
+//---------------------------------------------------------------------------------------
 Milestone 3
 
 Group Member: Siqi Sun ; Yuding Ai ; Ziyin Qu
