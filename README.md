@@ -12,3 +12,5 @@ Then press the run button.
 
 P.S. if there is an error about "'it' does not name a type for(auto it = triangle...)", just add
 CONFIG += c++11 into the .pro file.
+
+Thanks!
