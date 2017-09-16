@@ -3,13 +3,13 @@ A Ray tracer to parse 3D Scenes.
 This is a group project cooperated with my classmates: _Siqisun_ and _Ziyinqu_ for course _CIS 560: Computer Graphics_.
 ## Sample images:
 #### Cornell box with reflection and refraction
-![Cornell_refelec](https://github.com/Aieener/Ray-Tracer/blob/master/cornell_reflec_refrac.png?raw=true "Optional Title")
+![Cornell_refelec](https://github.com/Aieener/Ray-Tracer/blob/master/cornell_reflec_refrac.png?raw=true "Cornell_refelec")
 #### Cornell box with reflection only
-![Cornell_refeleconly](https://github.com/Aieener/Ray-Tracer/blob/master/cornell_reflectonly_result.png?raw=true "Optional Title")
+![Cornell_refeleconly](https://github.com/Aieener/Ray-Tracer/blob/master/cornell_reflectonly_result.png?raw=true "Cornell_refeleconly")
 #### Primitive shapes
-![Primitive_shapes](https://github.com/Aieener/Ray-Tracer/blob/master/my_shapes.png?raw=true "Optional Title")
+![Primitive_shapes](https://github.com/Aieener/Ray-Tracer/blob/master/my_shapes.png?raw=true "Primitive_shapes")
 #### Render 3D image with mesh data structures
-![Primitive_shapes](https://github.com/Aieener/Ray-Tracer/blob/master/gourd.png?raw=true "Optional Title")
+![mesh](https://github.com/Aieener/Ray-Tracer/blob/master/gourd.png?raw=true "mesh")
 
 ## To run the program
 This is a **Qt project (tested on Ubuntu 16.04)**, so to run the program, just modify the main.cpp as there are multiple
